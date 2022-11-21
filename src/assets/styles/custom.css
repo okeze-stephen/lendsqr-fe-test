@@ -1,0 +1,32 @@
+.left-side {
+    width: 20%;
+    float: left;
+  }
+  
+  .right-side {
+    width: 80%;
+    float: right;
+  }
+  
+  .Right-top-text {
+    padding-top: 35%;
+    margin-left: -50px;
+  }
+  
+  .Login-inside-container{
+    padding-top: 10%;
+    margin-left: -50px;
+  }
+  
+  .Login-form {
+    width: 60%;
+  }
+  @media (max-width: 500px) {
+    .left-side {
+      display: none;
+    }
+    .Login-form {
+      width: 100%;
+    }
+  }
+  
